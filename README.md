@@ -12,3 +12,13 @@ I only implemented about 1/5 of the total instructions.
 
 load microcpu.circ to run the program
 
+The CPU must support at minimum: conditional jumps, arithmetic, logic, and loading and storing data to RAM. 
+(all conditions are met)
+
+Is this CPU a Harvard architecture or von Neumann architecture?
+(Harvard, the cpu has a ROM and RAM)
+
+How wide are the registers?
+(16 bit, the whole cpu is 16 bit)
+(There are also only 8 registers total)
+
