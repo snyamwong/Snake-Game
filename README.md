@@ -8,5 +8,7 @@ basic_program.ram is the program to load into the RAM
 ucontrol.rom and udecision.rom are the programs to load into the ROM
 (basic_microcode is the origin file)
 
+I only implemented about 1/5 of the total instructions.
+
 load microcpu.circ to run the program
 
