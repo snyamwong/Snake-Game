@@ -3,6 +3,7 @@
 # Your challenge is to implement the rest of the instructions in microcode,
 # and any other instructions you feel like writing.
 
+#16 bits instruction list
 add Rd,Rs,Rt (0)
 	Rd <- Rs + Rt		PC <- PC + 1
 
@@ -51,6 +52,7 @@ rol Rd,Rs,Rt (14)
 ror Rd,Rs,Rt (15)
 	Rd <- Rs rolled right by Rt bits	PC <- PC + 1
 
+#32 bits instruction list
 addi Rd,Rs,immed (16)
 	Rd <- Rs + immed	PC <- PC + 2
 
